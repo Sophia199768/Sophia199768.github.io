@@ -21,7 +21,7 @@ h1 {
     font-size: 24px;
 }
 
-header {
+.header {
     background-color: #D9D9D9;
     padding: 20px;
     font-size: 22px;
@@ -51,7 +51,7 @@ main {
     margin-left: 20px;
 }
 
-button {
+.viewMore {
     display: block;
     margin: 10px 0 10px 0;
     padding: 10px 20px;
@@ -61,7 +61,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.viewMore:hover {
     background-color: #7f9b64;
 }
 
@@ -75,34 +75,39 @@ aside {
     margin-right: 10px;
 }
 
-table {
+.jobTable {
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-table th, table td {
-    border: 3px solid #ffffff;
+.jobTable th, .jobTable td {
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: center;
     background-color: #e0dede;
 }
 
-#addRowButton {
-    background-color: white;
+.addLine {
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    color: #333333;
+    border: none;
     cursor: pointer;
 }
 
-#addRowButton:hover {
+.addLine:hover {
     background-color: #7f9b64;
 }
 
-.timeline-container {
+.monthLine {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.timeline-container p {
+.monthLine p {
     margin: 20px;
     white-space: nowrap;
 }
@@ -158,6 +163,7 @@ footer p {
     display: inline-block;
     color: #333;
     margin: 0 0px;
+    text-decoration: underline;
 }
 
 footer a:hover {

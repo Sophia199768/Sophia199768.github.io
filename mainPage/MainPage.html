@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="job, search, tracker">
     <meta name="description" content="Tracker to help find a job easier">
+    <link href="MainPage.css" rel="stylesheet">
     <title>Job search tracker</title>
 </head>
 
 <body>
-<header>
+<header class="header">
     <h1>Job search tracker</h1>
     <nav>
-        <a href="#">Language</a> | <a href="#">Color</a> | <a href="#">Contacts</a>
+        <a href="#">Language</a>  <a href="#">Color</a>   <img src="pictures/lamp.png" alt="" width="20" height="20" /> <a href="#">Contacts</a>
     </nav>
 </header>
 
 <main>
     <section>
-        <h2>Job searching time</h2>
-        <p>Month from: quit my job & sent out my first job application</p>
-        <p>Month to: received & signed my offer</p>
+        <h2>Job Searching Time</h2>
+        <div class="monthLine">
+            <p>Month from: quit my job & sent out my first job application</p>
+            <hr class="timeline" />
+            <p>Month to: received & signed my offer</p>
+        </div>
     </section>
 
     <section>
-        <h2>Job searching + life timeline</h2>
-        <p>Month from: quit my job & sent out my first job application</p>
-        <p>Month to: received & signed my offer</p>
-        <button>View more</button>
+        <h2>Job Searching + Life Timeline</h2>
+        <div class="monthLine">
+            <p>Month from: quit my job & sent out my first job application</p>
+            <hr class="timeline" />
+            <p>Month to: received & signed my offer</p>
+        </div>
+        <button class="viewMore">View more</button>
     </section>
 
-    <section>
+    <div class="jobTable">
         <h2>Job searching table</h2>
         <table border="1">
             <tr>
@@ -42,10 +49,18 @@
                 <th>Status</th>
                 <th>Conclusion</th>
             </tr>
+            <tr>
+                <th><button class="addLine">Add line</button></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
         </table>
-    </section>
+    </div>
 
-    <section>
+    <section class="companies">
         <aside>
             <h3>Companies sites</h3>
             <ol>
@@ -56,49 +71,18 @@
         </aside>
     </section>
 
-    <section>
-        <h2>ASCII Art</h2>
-        <pre>
-            ________________
-            ||            ||
-            ||            ||
-            ||            ||
-            ||            ||
-            ||____________||
-            |______________|
-             \\############\\
-              \\############\\
-               \      ____    \
-                \_____\___\____\
-            </pre>
-    </section>
-
-    <section>
-        <h2>Code snippet</h2>
-        <pre>
-<code>
-public class JobApplication {
-    private String companyName;
-    private String position;
-
-    public JobApplication(String companyName, String position) {
-        this.companyName = companyName;
-        this.position = position;
-    }
-
-}
-</code>
-            </pre>
-    </section>
-
-    <section>
-        <sup><strong>"Work frees us from three great evils: boredom, vice and need." (Voltaire)</strong></sup>
-    </section>
 </main>
 
 <footer>
-    <p>Contacts: sophiabrovkina1234@gmail.com</p>
-    <p><a href="https://github.com/Sophia199768/Sophia199768.github.io">Github</a></p>
+    <div class="email">
+        <img src="pictures/gmail.png" alt="" width="20" height="20" />
+        <p>Contacts: sophiabrovkina1234@gmail.com</p>
+    </div>
+
+    <div class="email">
+        <img src="pictures/github.png" alt="" width="20" height="20" />
+        <p>Github: Sophia199768.github.io</p>
+    </div>
 </footer>
 </body>
 </html>
