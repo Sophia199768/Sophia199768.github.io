@@ -63,6 +63,8 @@ main {
     background-color: #7f9b64;
 }
 
+
+
 aside {
     width: 200px;
     background-color: #D9D9D9;
@@ -106,7 +108,7 @@ aside {
 }
 
 .monthLine p {
-    margin: 20px;
+    margin: 10px;
     white-space: nowrap;
 }
 
@@ -120,7 +122,7 @@ aside {
 
 .timeline::before,
 .timeline::after {
-    content: '';
+    content: "";
     width: 8px;
     height: 8px;
     background-color: #000;
@@ -135,6 +137,11 @@ aside {
 
 .timeline::after {
     right: -10px;
+}
+
+
+.monthChoose {
+    border-color: white;
 }
 
 footer {
