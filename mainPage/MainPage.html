@@ -1,37 +1,124 @@
 <!DOCTYPE html>
 
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="job, search, tracker">
     <meta name="description" content="Tracker to help find a job easier">
+    <link href="MainPage.css" rel="stylesheet">
     <title>Job search tracker</title>
 </head>
 
 <body>
-<header>
-    <h1>Job search tracker</h1>
-    <nav>
-        <a href="#">Language</a> | <a href="#">Color</a> | <a href="#">Contacts</a>
+<header class="siteHeader">
+    <h1 class="siteName">Job search tracker</h1>
+    <nav class="siteNavigation">
+        <a href="#">Language</a>  <a href="#">Color</a>   <img src="pictures/lamp.png" alt=""/> <a href="#">Contacts</a>
     </nav>
 </header>
 
 <main>
     <section>
-        <h2>Job searching time</h2>
-        <p>Month from: quit my job & sent out my first job application</p>
-        <p>Month to: received & signed my offer</p>
+        <h2>Job Searching Time</h2>
+        <div class="monthLine">
+
+            <label>
+                <select class="monthChoose">
+                    <option value="">Select Month</option>
+                    <option value="1">Janaury</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </label>
+
+            <p>quit my job & sent out my first job application</p>
+            <hr class="timeline" />
+
+
+            <label>
+                <select class="monthChoose">
+                    <option value="">Select Month</option>
+                    <option value="1">Janaury</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </label>
+
+            <p> received & signed my offer</p>
+        </div>
+
     </section>
 
     <section>
-        <h2>Job searching + life timeline</h2>
-        <p>Month from: quit my job & sent out my first job application</p>
-        <p>Month to: received & signed my offer</p>
-        <button>View more</button>
+        <h2>Job Searching + Life Timeline</h2>
+        <div class="monthLine">
+
+
+            <label>
+                <select class="monthChoose">
+                    <option value="">Select Month</option>
+                    <option value="1">Janaury</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </label>
+
+            <p>quit my job & sent out my first job application</p>
+            <hr class="timeline" />
+
+
+            <label>
+                <select class="monthChoose">
+                    <option value="">Select Month</option>
+                    <option value="1">Janaury</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </label>
+
+            <p>received & signed my offer</p>
+        </div>
+        <button class="viewMore">View more</button>
     </section>
 
-    <section>
+    <div class="jobTable">
         <h2>Job searching table</h2>
         <table border="1">
             <tr>
@@ -42,10 +129,18 @@
                 <th>Status</th>
                 <th>Conclusion</th>
             </tr>
+            <tr>
+                <th><button class="addLine">Add line</button></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
         </table>
-    </section>
+    </div>
 
-    <section>
+    <section class="companies">
         <aside>
             <h3>Companies sites</h3>
             <ol>
@@ -56,49 +151,18 @@
         </aside>
     </section>
 
-    <section>
-        <h2>ASCII Art</h2>
-        <pre>
-            ________________
-            ||            ||
-            ||            ||
-            ||            ||
-            ||            ||
-            ||____________||
-            |______________|
-             \\############\\
-              \\############\\
-               \      ____    \
-                \_____\___\____\
-            </pre>
-    </section>
-
-    <section>
-        <h2>Code snippet</h2>
-        <pre>
-<code>
-public class JobApplication {
-    private String companyName;
-    private String position;
-
-    public JobApplication(String companyName, String position) {
-        this.companyName = companyName;
-        this.position = position;
-    }
-
-}
-</code>
-            </pre>
-    </section>
-
-    <section>
-        <sup><strong>"Work frees us from three great evils: boredom, vice and need." (Voltaire)</strong></sup>
-    </section>
 </main>
 
 <footer>
-    <p>Contacts: sophiabrovkina1234@gmail.com</p>
-    <p><a href="https://github.com/Sophia199768/Sophia199768.github.io">Github</a></p>
+    <div class="email">
+        <img src="pictures/gmail.png" alt=""/>
+        <p>Contacts: sophiabrovkina1234@gmail.com</p>
+    </div>
+
+    <div class="email">
+        <img src="pictures/github.png" alt=""/>
+        <p>Github: Sophia199768.github.io</p>
+    </div>
 </footer>
 </body>
 </html>
