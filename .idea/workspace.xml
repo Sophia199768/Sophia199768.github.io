@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add second homework" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="secondLabwork" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2m4ZqjfCfMhKO39Sm9o7MSNRjzj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mainPage/pictures" />
+      <recent name="$PROJECT_DIR$/site models" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="" />
+      <created>1726338001305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726338001305</updated>
+      <workItem from="1726338002380" duration="38000" />
+      <workItem from="1726338054978" duration="24000" />
+      <workItem from="1726338261546" duration="5000" />
+      <workItem from="1726391463077" duration="2362000" />
+      <workItem from="1726403738564" duration="536000" />
+      <workItem from="1726497978591" duration="68000" />
+      <workItem from="1726504286304" duration="15000" />
+      <workItem from="1726581535809" duration="210000" />
+      <workItem from="1726672774888" duration="21000" />
+      <workItem from="1726681503480" duration="900000" />
+      <workItem from="1726823680287" duration="551000" />
+      <workItem from="1726824253382" duration="237000" />
+      <workItem from="1726824582960" duration="2397000" />
+      <workItem from="1726827040364" duration="1009000" />
+      <workItem from="1726828103978" duration="24000" />
+      <workItem from="1726828198093" duration="1580000" />
+      <workItem from="1726829840002" duration="1891000" />
+      <workItem from="1726831763205" duration="2562000" />
+      <workItem from="1726854104431" duration="2365000" />
+      <workItem from="1726856963799" duration="2405000" />
+      <workItem from="1726907636612" duration="137000" />
+      <workItem from="1726907789658" duration="1399000" />
+      <workItem from="1726909523049" duration="3152000" />
+      <workItem from="1727102399858" duration="17000" />
+      <workItem from="1727166811661" duration="99000" />
+      <workItem from="1727514404017" duration="52000" />
+      <workItem from="1727514502731" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="add first homework">
+      <option name="closed" value="true" />
+      <created>1726681534908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681534908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add second homework">
+      <option name="closed" value="true" />
+      <created>1726854807193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726854807193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add first homework">
+      <option name="closed" value="true" />
+      <created>1726855329953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726855329953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add first homework">
+      <option name="closed" value="true" />
+      <created>1726857225374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726857225374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add first homework">
+      <option name="closed" value="true" />
+      <created>1726859358563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726859358563</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add second homework">
+      <option name="closed" value="true" />
+      <created>1726908925293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726908925293</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add second homework">
+      <option name="closed" value="true" />
+      <created>1726909644934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726909644934</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add second homework">
+      <option name="closed" value="true" />
+      <created>1726910742872</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726910742872</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add second homework">
+      <option name="closed" value="true" />
+      <created>1726914140956</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726914140956</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add first homework" />
+    <MESSAGE value="add second homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add second homework" />
+  </component>
+</project>
