@@ -10,7 +10,15 @@
     <link href="css/TableStyle.css" rel="stylesheet">
     <link href="css/Footer.css" rel="stylesheet">
     <link href="css/Header.css" rel="stylesheet">
+    <link href="css/Theme.css" rel="stylesheet">
+    <link href="css/Active.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
     <title>Job search tracker</title>
+    <script src="scripts/AllPagesScript.js"></script>
 </head>
 
 <body>
@@ -18,10 +26,14 @@
 <header class="siteHeader">
     <h1 class="siteName">Job search tracker</h1>
     <nav class="siteNavigation">
-        <a href="#">Language</a>  <a href="#">Color</a>   <img src="pictures/lamp.png" alt=""/> <a href="#">Contacts</a>
+        <a href="#">Language</a>
+        <a class="theme-toggle-button" aria-label="Colorful">Color</a>
+        <img src="pictures/lamp.png" alt=""/>
+        <a href="SitesPage.html">Sites</a>
+        <a href="MainPage.html">Main</a>
     </nav>
-
     <div class="menuToggle">⋮</div>
+    <script src="scripts/Location.js"></script>
 </header>
 
 <main class="bodySite">
@@ -158,7 +170,9 @@
                 </tbody>
             </table>
             <button class="addLine">Add line</button>
+            <script src="scripts/AddLineScript.js"></script>
             <button class="deleteLine">Delete line</button>
+            <script src="scripts/DeleteLineScript.js"></script>
         </div>
     </section>
 
@@ -174,49 +188,11 @@
         <img src="pictures/github.png" alt=""/>
         <p>Github: Sophia199768.github.io</p>
     </div>
+
+    <div id="load_time">Page load time will appear here...</div>
 </footer>
 
-
-<script>
-    let rowCount = 3;
-    const addLineButton = document.querySelector('.addLine');
-    const jobTableBody = document.getElementById('jobTableBody');
-
-    addLineButton.addEventListener('click', function() {
-        const newRow = document.createElement('tr');
-        newRow.className = rowCount % 2 === 0 ? 'even' : 'odd';
-        newRow.innerHTML = `
-            <td>${rowCount}</td>
-            <td contenteditable="true"></td>
-            <td contenteditable="true"></td>
-            <td contenteditable="true"></td>
-            <td contenteditable="true"></td>
-            <td contenteditable="true"></td>
-        `;
-        jobTableBody.appendChild(newRow);
-        rowCount++;
-    });
-</script>
-
-<script>
-    const deleteLineButton = document.querySelector('.deleteLine');
-
-    deleteLineButton.addEventListener('click', function() {
-        const rows = jobTableBody.getElementsByTagName('tr');
-        if (rows.length > 0) {
-            jobTableBody.deleteRow(rows.length - 1);
-            rowCount--;
-        }
-    });
-</script>
-
-<script>
-    document.querySelector('.menuToggle').addEventListener('click', function() {
-        var nav = document.querySelector('.siteNavigation');
-        nav.classList.toggle('open');
-    });
-</script>
-
-
+<script src="scripts/MenuToggleScript.js"></script>
+<script src="scripts/Iife.js"></script>
 </body>
 </html>
