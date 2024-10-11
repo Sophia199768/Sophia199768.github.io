@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add third homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/ViewMore.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/ViewMore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/TableStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/TableStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site models/mainPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site models/secondPage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +106,10 @@
       <workItem from="1727858495533" duration="242000" />
       <workItem from="1728035455201" duration="16668000" />
       <workItem from="1728115352994" duration="362000" />
+      <workItem from="1728635861002" duration="5000" />
+      <workItem from="1728635868584" duration="11000" />
+      <workItem from="1728636383886" duration="6000" />
+      <workItem from="1728661983968" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="add first homework">
       <option name="closed" value="true" />
