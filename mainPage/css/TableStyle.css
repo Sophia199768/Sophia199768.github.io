@@ -1,0 +1,71 @@
+.jobTable {
+    width: 85%;
+    border-collapse: collapse;
+}
+
+.jobTable th, .jobTable td {
+    border: 0.2vh solid #ffffff;
+    padding: 1vh;
+    text-align: center;
+}
+
+body.light-theme .tableHeader {
+    background-color: #A8A7A7FF;
+}
+
+body.blue-theme .tableHeader {
+    background-color: #6D92B3;
+    color: white;
+}
+
+body.light-theme .jobTable .odd {
+    background-color: #eaeaea;
+}
+
+body.blue-theme .jobTable .even {
+    background-color: #F9F9F5;
+}
+
+
+body.light-theme .jobTable .even {
+    background-color: #d0d0d0;
+}
+
+body.blue-theme .jobTable .odd {
+    background-color: #E9EAEA;
+}
+
+.addLine:hover {
+    background-color: #7f9b64;
+}
+
+body.blue-theme .addLine, body.blue-theme .deleteLine {
+    display: inline-flex;
+    margin: 1vh;
+    padding: 1vh 2vh;
+    background-color: #6D92B3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+body.light-theme .addLine, body.light-theme .deleteLine {
+    display: inline-flex;
+    margin: 1vh;
+    padding: 1vh 2vh;
+    background-color: #D9D9D9;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+}
+
+body.blue-theme .addLine:hover,
+body.blue-theme .deleteLine:hover {
+    background-color: #4464af;
+}
+
+body.light-theme .addLine:hover,
+body.light-theme .deleteLine:hover {
+    background-color: #7f9b64;
+}

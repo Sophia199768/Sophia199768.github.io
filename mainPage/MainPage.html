@@ -6,19 +6,37 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="job, search, tracker">
     <meta name="description" content="Tracker to help find a job easier">
-    <link href="MainPage.css" rel="stylesheet">
+    <link href="css/MainPage.css" rel="stylesheet">
+    <link href="css/TableStyle.css" rel="stylesheet">
+    <link href="css/Footer.css" rel="stylesheet">
+    <link href="css/Header.css" rel="stylesheet">
+    <link href="css/Theme.css" rel="stylesheet">
+    <link href="css/Active.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
     <title>Job search tracker</title>
+    <script src="scripts/AllPagesScript.js"></script>
 </head>
 
 <body>
+
 <header class="siteHeader">
     <h1 class="siteName">Job search tracker</h1>
     <nav class="siteNavigation">
-        <a href="#">Language</a>  <a href="#">Color</a>   <img src="pictures/lamp.png" alt=""/> <a href="#">Contacts</a>
+        <a href="#">Language</a>
+        <a class="theme-toggle-button" aria-label="Colorful">Color</a>
+        <img src="pictures/lamp.png" alt=""/>
+        <a href="SitesPage.html">Sites</a>
+        <a href="MainPage.html">Main</a>
     </nav>
+    <div class="menuToggle">⋮</div>
+    <script src="scripts/Location.js"></script>
 </header>
 
-<main>
+<main class="bodySite">
     <section>
         <h2>Job Searching Time</h2>
         <div class="monthLine">
@@ -26,7 +44,7 @@
             <label>
                 <select class="monthChoose">
                     <option value="">Select Month</option>
-                    <option value="1">Janaury</option>
+                    <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
                     <option value="4">April</option>
@@ -41,14 +59,13 @@
                 </select>
             </label>
 
-            <p>quit my job & sent out my first job application</p>
+            <p class="quitJob">quit my job & sent out my first job application</p>
             <hr class="timeline" />
-
 
             <label>
                 <select class="monthChoose">
                     <option value="">Select Month</option>
-                    <option value="1">Janaury</option>
+                    <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
                     <option value="4">April</option>
@@ -63,7 +80,7 @@
                 </select>
             </label>
 
-            <p> received & signed my offer</p>
+            <p class="quitJob">received & signed my offer</p>
         </div>
 
     </section>
@@ -71,12 +88,10 @@
     <section>
         <h2>Job Searching + Life Timeline</h2>
         <div class="monthLine">
-
-
             <label>
                 <select class="monthChoose">
                     <option value="">Select Month</option>
-                    <option value="1">Janaury</option>
+                    <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
                     <option value="4">April</option>
@@ -91,14 +106,13 @@
                 </select>
             </label>
 
-            <p>quit my job & sent out my first job application</p>
+            <p class="quitJob">quit my job & sent out my first job application</p>
             <hr class="timeline" />
 
-
             <label>
                 <select class="monthChoose">
                     <option value="">Select Month</option>
-                    <option value="1">Janaury</option>
+                    <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
                     <option value="4">April</option>
@@ -113,42 +127,53 @@
                 </select>
             </label>
 
-            <p>received & signed my offer</p>
+            <p class="quitJob">received & signed my offer</p>
         </div>
-        <button class="viewMore">View more</button>
+
+        <div class="more">
+        <a href="ViewMore.html" class="viewMore">View more</a>
+        </div>
     </section>
 
-    <div class="jobTable">
+    <section class="tableJob">
         <h2>Job searching table</h2>
-        <table border="1">
-            <tr>
-                <th>Number</th>
-                <th>Position</th>
-                <th>Company name</th>
-                <th>Skills</th>
-                <th>Status</th>
-                <th>Conclusion</th>
-            </tr>
-            <tr>
-                <th><button class="addLine">Add line</button></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </table>
-    </div>
 
-    <section class="companies">
-        <aside>
-            <h3>Companies sites</h3>
-            <ol>
-                <li>link 1</li>
-                <li>link 2</li>
-                <li>link 3</li>
-            </ol>
-        </aside>
+        <div class="jobTable">
+            <table class="jobTable" border="1">
+                <thead>
+                <tr class="tableHeader">
+                    <th>Number</th>
+                    <th>Position</th>
+                    <th>Company name</th>
+                    <th>Skills</th>
+                    <th>Status</th>
+                    <th>Conclusion</th>
+                </tr>
+                </thead>
+                <tbody id="jobTableBody">
+                <tr class="odd">
+                    <td>1</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr class="even">
+                    <td>2</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                </tbody>
+            </table>
+            <button class="addLine">Add line</button>
+            <script src="scripts/AddLineScript.js"></script>
+            <button class="deleteLine">Delete line</button>
+            <script src="scripts/DeleteLineScript.js"></script>
+        </div>
     </section>
 
 </main>
@@ -163,6 +188,11 @@
         <img src="pictures/github.png" alt=""/>
         <p>Github: Sophia199768.github.io</p>
     </div>
+
+    <div id="load_time">Page load time will appear here...</div>
 </footer>
+
+<script src="scripts/MenuToggleScript.js"></script>
+<script src="scripts/Iife.js"></script>
 </body>
 </html>

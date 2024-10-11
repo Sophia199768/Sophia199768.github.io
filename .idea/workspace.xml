@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add second homework" />
+    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add third homework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="secondLabwork" />
+        <entry key="$PROJECT_DIR$" value="thirdLabwork" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,25 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;forthLabwork&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mainPage/pictures" />
       <recent name="$PROJECT_DIR$/site models" />
+      <recent name="$PROJECT_DIR$/mainPage/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -94,6 +99,17 @@
       <workItem from="1727166811661" duration="99000" />
       <workItem from="1727514404017" duration="52000" />
       <workItem from="1727514502731" duration="28000" />
+      <workItem from="1727792240953" duration="66000" />
+      <workItem from="1727792310630" duration="5784000" />
+      <workItem from="1727811027452" duration="851000" />
+      <workItem from="1727855502159" duration="2980000" />
+      <workItem from="1727858495533" duration="242000" />
+      <workItem from="1728035455201" duration="16668000" />
+      <workItem from="1728115352994" duration="362000" />
+      <workItem from="1728635861002" duration="5000" />
+      <workItem from="1728635868584" duration="11000" />
+      <workItem from="1728636383886" duration="6000" />
+      <workItem from="1728661983968" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="add first homework">
       <option name="closed" value="true" />
@@ -167,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726914140956</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add third homework">
+      <option name="closed" value="true" />
+      <created>1727858509303</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727858509303</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add first homework" />
     <MESSAGE value="add second homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="add second homework" />
+    <MESSAGE value="add third homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add third homework" />
   </component>
 </project>

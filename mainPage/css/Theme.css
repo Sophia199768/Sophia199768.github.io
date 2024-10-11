@@ -1,0 +1,29 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Inria Serif', sans-serif;
+    padding-top: 20vh;
+    margin: 0;
+
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+body.light-theme, body.blue-theme {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.theme-toggle-button {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body.light-theme .theme-toggle-button:hover {
+    color: #7f9b64;
+}
+
+body.blue-theme .theme-toggle-button:hover {
+    color: #4464af;
+}

@@ -1,0 +1,4 @@
+.siteNavigation a.active {
+    font-weight: bold;
+    background: #eaeaea;
+}
