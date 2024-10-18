@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Constructor to Plan your job path</title>
+
+    <link href="css/Header.css" rel="stylesheet">
+    <link href="css/Footer.css" rel="stylesheet">
+    <link href="css/Theme.css" rel="stylesheet">
+    <link href="css/MainPage.css" rel="stylesheet">
+    <link href="css/Constructor.css" rel="stylesheet">
+    <script src="scripts/AllPagesScript.js"></script>
+</head>
+
+<body>
+
+<main>
+    <header class="header">
+        <h1 class="header__name">Constructor for planning steps to achieve your job</h1>
+        <nav class="header__navigation">
+            <a href="#">Language</a>
+            <a class="theme-toggle-button" aria-label="Colorful">Color</a>
+            <a href="MainPage.html">Main</a>
+        </nav>
+        <div class="header__menuToggle" aria-label="Menu">⋮</div>
+    </header>
+
+    <form class="task-form">
+        <div class="task-form__content">
+            <h2 class="task-form__header">Write your steps</h2>
+
+            <input class="task-form__input" type="text" placeholder="Enter task..." required>
+
+            <select class="task-form__priority">
+                <option value="top">Top Priority</option>
+                <option value="middle">Middle Priority</option>
+                <option value="low">Less Priority</option>
+            </select>
+
+            <button class="task-form__button">Add Task</button>
+        </div>
+    </form>
+
+    <div class="result"><h2>Result of generation</h2></div>
+    <div class="task-list"></div>
+
+</main>
+
+<script src="scripts/ConstructorSite.js" defer></script>
+<script src="scripts/MenuToggleScript.js"></script>
+
+</body>
+</html>

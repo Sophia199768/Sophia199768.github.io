@@ -70,13 +70,13 @@ body.blue-theme .viewMore:hover {
     background-color: #4464af;
 }
 
-.monthLine {
+.main__monthLine {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.monthLine p {
+.main__monthLine p {
     margin: 1vh;
     white-space: nowrap;
 }

@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="job, search, tracker">
     <meta name="description" content="Tracker to help find a job easier">
+
     <link href="css/MainPage.css" rel="stylesheet">
     <link href="css/TableStyle.css" rel="stylesheet">
     <link href="css/Footer.css" rel="stylesheet">
     <link href="css/Header.css" rel="stylesheet">
     <link href="css/Theme.css" rel="stylesheet">
-    <link href="css/Active.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,26 +23,25 @@
 
 <body>
 
-<header class="siteHeader">
-    <h1 class="siteName">Job search tracker</h1>
-    <nav class="siteNavigation">
+<header class="header">
+    <h1 class="header__name">Job search tracker</h1>
+    <nav class="header__navigation">
         <a href="#">Language</a>
         <a class="theme-toggle-button" aria-label="Colorful">Color</a>
         <img src="pictures/lamp.png" alt=""/>
         <a href="SitesPage.html">Sites</a>
-        <a href="MainPage.html">Main</a>
+        <a href="Constructor.html">Constructor</a>
     </nav>
-    <div class="menuToggle">⋮</div>
-    <script src="scripts/Location.js"></script>
+    <div class="header__menuToggle">⋮</div>
 </header>
 
-<main class="bodySite">
+<main class="main">
     <section>
-        <h2>Job Searching Time</h2>
-        <div class="monthLine">
+        <h2 class="main__header">Job Searching Time</h2>
+        <div class="main__monthLine">
 
             <label>
-                <select class="monthChoose">
+                <select class="monthChoose" data-id="start">
                     <option value="">Select Month</option>
                     <option value="1">January</option>
                     <option value="2">February</option>
@@ -63,7 +62,7 @@
             <hr class="timeline" />
 
             <label>
-                <select class="monthChoose">
+                <select class="monthChoose" data-id="now">
                     <option value="">Select Month</option>
                     <option value="1">January</option>
                     <option value="2">February</option>
@@ -87,9 +86,9 @@
 
     <section>
         <h2>Job Searching + Life Timeline</h2>
-        <div class="monthLine">
+        <div class="main__monthLine">
             <label>
-                <select class="monthChoose">
+                <select class="monthChoose" data-id="startCh">
                     <option value="">Select Month</option>
                     <option value="1">January</option>
                     <option value="2">February</option>
@@ -110,7 +109,7 @@
             <hr class="timeline" />
 
             <label>
-                <select class="monthChoose">
+                <select class="monthChoose" data-id="nowCh">
                     <option value="">Select Month</option>
                     <option value="1">January</option>
                     <option value="2">February</option>
@@ -188,11 +187,9 @@
         <img src="pictures/github.png" alt=""/>
         <p>Github: Sophia199768.github.io</p>
     </div>
-
-    <div id="load_time">Page load time will appear here...</div>
 </footer>
 
+<script src="scripts/ChooseMonth.js"></script>
 <script src="scripts/MenuToggleScript.js"></script>
-<script src="scripts/Iife.js"></script>
 </body>
 </html>

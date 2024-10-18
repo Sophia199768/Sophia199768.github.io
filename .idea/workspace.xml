@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add third homework">
+    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add fourth lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/AddLineScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/SitesPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/SitesPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/ViewMore.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/ViewMore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/css/Active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/css/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/css/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/DeleteLineScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/DeleteLineScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/Iife.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/Location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/MenuToggleScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/MenuToggleScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +26,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="thirdLabwork" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +55,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;forthLabwork&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fifthLabwork&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -58,10 +67,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mainPage" />
+      <recent name="$PROJECT_DIR$/mainPage/scripts" />
       <recent name="$PROJECT_DIR$/mainPage/pictures" />
       <recent name="$PROJECT_DIR$/site models" />
       <recent name="$PROJECT_DIR$/mainPage/css" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,6 +120,9 @@
       <workItem from="1728635868584" duration="11000" />
       <workItem from="1728636383886" duration="6000" />
       <workItem from="1728661983968" duration="1412000" />
+      <workItem from="1728815342714" duration="6673000" />
+      <workItem from="1728825212077" duration="2541000" />
+      <workItem from="1729242661159" duration="2921000" />
     </task>
     <task id="LOCAL-00001" summary="add first homework">
       <option name="closed" value="true" />

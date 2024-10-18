@@ -1,4 +1,4 @@
-.siteHeader {
+.header {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,42 +15,42 @@
     color: #333;
 }
 
-.siteName {
+.header__name {
     text-align: center;
     margin-top: 2vh;
     font-size: 5vh;
     flex-grow: 1;
 }
 
-.siteNavigation {
+.header__navigation {
     display: flex;
     gap: 1vh;
     flex-wrap: wrap;
     font-size: 2vh;
 }
 
-body.blue-theme .siteNavigation a {
+body.blue-theme .header__navigation a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-body.light-theme .siteNavigation a {
+body.light-theme .header__navigation a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
 }
 
-body.light-theme .siteNavigation a:hover {
+body.light-theme .header__navigation a:hover {
     color: #7f9b64;
 }
 
-body.blue-theme .siteNavigation a:hover {
+body.blue-theme .header__navigation a:hover {
     color: #4464af;
 }
 
 
-.menuToggle {
+.header__menuToggle {
     display: none;
     font-size: 2em;
     cursor: pointer;
@@ -59,16 +59,16 @@ body.blue-theme .siteNavigation a:hover {
 
 
 @media (max-width: 768px) {
-    .siteNavigation {
+    .header__navigation {
         display: none;
     }
 
-    .menuToggle {
+    .header__menuToggle {
         display: block;
     }
 }
 
-.siteNavigation.open {
+.header__navigation.open {
     display: flex;
     position: absolute;
     right: 0;
