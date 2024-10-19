@@ -1,4 +1,3 @@
-
 const deleteLineButton = document.querySelector('.deleteLine');
 
 deleteLineButton.addEventListener('click', function() {
