@@ -59,3 +59,10 @@ body.blue-theme thead {
 body.light-theme thead {
     background-color: #A8A7A7FF;
 }
+
+.task_form_picture {
+    float: right;
+    margin-right: 10vh;
+    width: 200px;
+    height: 200px;
+}

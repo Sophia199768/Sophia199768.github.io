@@ -18,6 +18,7 @@
 .header__name {
     text-align: center;
     margin-top: 2vh;
+    margin-left: 30vh;
     font-size: 5vh;
     flex-grow: 1;
 }
