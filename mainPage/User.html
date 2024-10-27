@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Sites to find job openings</title>
+    <title>Users</title>
     <link href="css/Theme.css" rel="stylesheet">
     <link href="css/Header.css" rel="stylesheet">
     <link href="css/MainPage.css" rel="stylesheet">
     <link href="css/Footer.css" rel="stylesheet">
+    <link href="css/Users.css" rel="stylesheet">
     <script src="scripts/AllPagesScript.js"></script>
 </head>
 
-<body>
-
 <header class="header">
-    <h1 class="header__name">Sites to find job openings</h1>
+    <h1 class="header__name">Users</h1>
     <nav class="header__navigation">
         <a href="#">Language</a>
         <a class="theme-toggle-button" aria-label="Colorful">Color</a>
@@ -23,9 +23,26 @@
     <div class="header__menuToggle">⋮</div>
 </header>
 
-<main>
+<body>
 
-</main>
+
+<table  class="table" id="usersTable">
+    <thead>
+    <tr>
+        <th>Number</th>
+        <th>Username</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<div id="preloader" class="hidden"><img src="pictures/Loader.svg" class="loader"/></div>
+
+<div id="errorMessage" class="hidden">Mistake</div>
+
+<script src="scripts/Users.js"></script>
+</body>
 
 <footer>
     <div class="email">
@@ -40,5 +57,4 @@
 </footer>
 
 <script src="scripts/MenuToggleScript.js"></script>
-</body>
 </html>
