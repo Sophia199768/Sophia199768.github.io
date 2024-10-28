@@ -24,6 +24,10 @@
     }
 }
 
+.hidden {
+    display: none;
+}
+
 html {
     font-size: 70%;
     overflow-x: hidden;
