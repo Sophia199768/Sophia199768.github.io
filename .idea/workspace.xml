@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add fifth lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/Constructor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/Constructor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/Constructor.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Constructor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/css/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage/scripts/AllPagesScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/AllPagesScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
