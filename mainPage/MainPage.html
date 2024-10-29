@@ -18,13 +18,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
     <link href="css/Login.css" rel="stylesheet">
 
     <title>Job search tracker</title>
     <script src="scripts/AllPagesScript.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 
 <body>
@@ -43,22 +46,18 @@
 
 
 <div class="form-container">
-    <h2>Register</h2>
+    <h2>If you want to continue using this site, you must confirm the statement below</h2>
+    <p>I promise to send the developer a jar of condensed milk, after clicking the button, an email will be sent to the mail</p>
     <form id="registrationForm">
         <div>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <label>Password:</label>
-            <input type="password"  id="password" required>
         </div>
-        <button type="submit" class="btn">Зарегистрироваться</button>
+        <button type="submit" class="btn">Submit</button>
     </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="scripts/Login.js"></script>
 </div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
-<script src="scripts/Login.js"></script>
 
 <main class="main hidden">
     <section>

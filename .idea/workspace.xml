@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add seventh lab" />
+    <list default="true" id="0ad81a9b-82ec-4558-952b-beef64f1d25d" name="Changes" comment="add seventh lab">
+      <change beforePath="$PROJECT_DIR$/.idea/Sophia199768.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sophia199768.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/css/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/css/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPage/scripts/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage/scripts/Login.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
