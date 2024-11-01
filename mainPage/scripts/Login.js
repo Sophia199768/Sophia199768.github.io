@@ -7,11 +7,12 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const templateParams = {
         to_email: 'sophiabrovkina1234@gmail.com',
         email: email,
-        message: `NI promise to send you a jar of condensed milk`
+        message: `I promise to send you a jar of condensed milk`
     };
 
     emailjs.send('service_0rdlood', 'template_0adftol', templateParams)
         .then(function(response) {
+            // Sweet alert use there to make beautiful modal window
             Swal.fire({
                 title: 'Sucess!',
                 text: 'You can use this website.',
@@ -19,12 +20,13 @@ document.getElementById('registrationForm').addEventListener('submit', function(
                 confirmButtonText: 'Ок'
             }).then((result) => {
                 if (result.isConfirmed) {
+                    // toaststr is used there
                     toastr.options = {
                         "closeButton": true,
                         "progressBar": true,
                         "positionClass": "toast-top-right",
-                        "timeOut": "5000",
                     };
+
 
                     const mainContent = document.querySelectorAll("main");
                     const formContainer = document.querySelector(".form-container");
@@ -36,7 +38,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
             });
         })
         .catch(function(error) {
-            toastr.error("Ошибка при отправке email!");
+            toastr.error("Mistake!");
             console.error("EmailJS Error:", error);
         });
 });
